@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div-ine Innovators</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial;background:#0f0c29;color:#ddd;padding:20px;line-height:1.6}
+    header{text-align:center;padding:40px;background:#111;border-radius:20px;margin-bottom:30px}
+    header img{width:180px;margin:20px}
+    h1{font-size:3rem;color:#00f0ff}
+    h2{color:#b721ff;margin:30px 0 20px;text-align:center}
+    section{max-width:1000px;margin:auto;background:#111;padding:30px;border-radius:15px;margin-bottom:30px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
+    .card{background:#222;padding:20px;border-radius:10px;text-align:center;border:2px solid #00f0ff}
+    .card a{color:#b721ff;text-decoration:none;font-weight:bold}
+    .card:hover{transform:scale(1.05);transition:0.3s}
+    ul{margin:20px 40px}
+    footer{text-align:center;padding:20px;color:#666}
+    @media(max-width:600px){h1{font-size:2rem}}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Div-ine Innovators</h1>
+    <p><i>Innovation Through Collaboration</i></p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p style="text-align:center">The System is Our Canvas. Excellence is Our Code.<br>
+    A dedicated team transforming business challenges with innovative information systems.</p>
+  </section>
+
+  <section>
+    <h2>Team Members</h2>
+    <div class="grid">
+      <div class="card">Farjana Afrin Nahin</div>
+      <div class="card"><a href="tanaj-profile.html" target="_blank">Tanaj Boshry Mithee</a></div>
+      <div class="card">Sumnoon Ferdous</div>
+      <div class="card">Nashra Islam</div>
+      <div class="card">Fahim Shahriar Alif</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Final Project</h2>
+    <p><b>Student Tourism Agency Web Platform</b><br>
+    A budget-friendly travel booking site for students during semester breaks.</p>
+    <ul>
+      <li>✓ Domestic & International packages</li>
+      <li>✓ Student pricing + break dates</li>
+      <li>✓ Online inquiry booking</li>
+      <li>✓ EmailJS contact form</li>
+      <li>✓ Fully responsive</li>
+    </ul>
+  </section>
+
+  <footer>© Div-ine Innovators 2025 | MIS-455</footer>
+</body>
+</html>
